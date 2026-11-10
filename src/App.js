@@ -7,6 +7,7 @@ import Home from './components/Home.js';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
 import Experience from './components/Experience.js';
+import Resume from './components/Resume.js';
 import Contact from './components/Contact.js';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

@@ -1,4 +1,3 @@
-
 import '../styles/Projects.css';
 
 function Projects() {
